@@ -1,5 +1,6 @@
 body {
     background: rgba(21, 21, 21, 1);
+    font-family: 'Manrope', sans-serif;
 }
 
 .bg-gray {
@@ -13,8 +14,12 @@ body {
     height: 90vh;
 }
 
-
-
+/* .line-marker {
+    position: relative;
+    right: 0;
+    left: auto
+}
+ */
 .page-header {
     font-family: 'Berkshire Swash', cursive;
     color: rgba(255, 94, 25, 1);
@@ -27,11 +32,21 @@ body {
 }
 
 .bg-header-img {
-    width: 117px;
-    height: 128px;
-    left: 1184px;
-    top: 119px;
+    position: relative;
+    top: 80px;
+    width: 150px;
+    height: 200px;
+    filter: drop-shadow(3px 2px 39px rgba(203, 203, 203, 0.25)) drop-shadow(-3px -2px 39px rgba(203, 203, 203, 0.25));
+}
 
-    background: rgba(255, 255, 255, 0.4);
-    filter: blur(44px);
+.bg-header-logo {
+    position: relative;
+    top: -150px;
+    left: -30px;
+}
+
+.bg-header-logo-sub {
+    position: relative;
+    width: 150px;
+    top: -20px;
 }
