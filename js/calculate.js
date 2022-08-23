@@ -3,7 +3,7 @@ console.log("calculate");
 document.getElementById("Calculate").addEventListener("click", function () {
     const playerCost = parseIntFunction("per-player-cost")
     if (playerCost == false) {
-        alert("its not a number")
+        console.log(" error: field is empty");
     }
     else {
         const totalPayerCost = playerCost * playerList
@@ -19,7 +19,7 @@ document.getElementById("Calculate-total").addEventListener("click", function ()
     const TotalManagerCost = parseIntFunction("manager");
     const TotalCoachCost = parseIntFunction("coach");
     if (TotalManagerCost === false || TotalCoachCost === false) {
-        alert("its not a number")
+        console.log(" error: field is empty");
     }
     else {
         const totaCost = totalPayerCostParsed + TotalManagerCost + TotalCoachCost
