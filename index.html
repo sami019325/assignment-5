@@ -190,22 +190,22 @@
                     <img src=" photos/Ureg-Ureg Marker.png" alt="" srcset="">
                     <div class="calculation text-white grid grid-cols-3 gap-2 p-5">
                         <p class="  col-span-2">Per player</p>
-                        <input type="text" class=" col-span-1 pl-3" value="1000">
+                        <input type="number" id="per-player-cost" class=" col-span-1 pl-3" value="1000" required>
                         <button class="  m-auto text-center bg-blue-600 text-white w-full py-2 my-5 col-span-3"
                             id="Calculate">Calculate</button>
                         <p class="  col-span-2">Player Expenses</p>
                         <p class="  col-span-1">$ <span id="calculated_player-expenses">000</span></p>
                         <!-- ---------- other cost ------- -->
                         <p class="  col-span-2">Manager</p>
-                        <input type="text" class=" col-span-1 pl-3" value="2000">
+                        <input type="number" class=" col-span-1 pl-3" value="2000" id="manager" required>
                         <p class="  col-span-2">Coach</p>
-                        <input type="text" class=" col-span-1 pl-3" value="4000">
+                        <input type="number" class=" col-span-1 pl-3" value="4000" id="coach" required>
                         <button class="  m-auto text-center bg-blue-600 text-white w-full py-2 my-5 col-span-3"
-                            id="Calculate">Calculate Total</button>
+                            id="Calculate-total">Calculate Total</button>
                         <!-- total ------  -->
                         <p class="  col-span-2 font-bold">Total</p>
                         <p class="  col-span-1 text-orange-600 font-bold">$ <span
-                                id="calculated_player-expenses">6000</span></p>
+                                id="calculated-total-expenses">6000</span></p>
                     </div>
                 </div>
             </div>

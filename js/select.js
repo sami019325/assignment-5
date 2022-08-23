@@ -1,6 +1,6 @@
 console.log("select");
 
-var playerList = 0;
+
 
 if (playerList == 0) {
     insertInnerText("selected-players-box", "No player is selected")
