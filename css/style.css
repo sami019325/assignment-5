@@ -53,3 +53,8 @@ body {
 ol li::marker {
     color: #888888;
 }
+
+input {
+    background: none;
+    border: 1px solid #FFFFFF;
+}

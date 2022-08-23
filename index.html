@@ -161,8 +161,8 @@
             </div>
             <!-- player 1 end------------------------------ -->
         </div>
-        <div class=" md:basis-1/4 bg-lime-500 ">
-            <div class="w-full bg-black py-10">
+        <div class=" md:basis-1/4 ">
+            <div class="w-full md:w-60 bg-black py-10">
                 <h2 class="text-center text-3xl text-white font-bold pt-5">Selected-V</Select></h2>
                 <div class="grid justify-items-center">
                     <img src=" photos/Ureg-Ureg Marker.png" alt="" srcset="">
@@ -177,15 +177,38 @@
                     </ol>
                 </div>
             </div>
-            <div class="w-full bg-black py-10 mt-5">
+            <div class="w-full md:w-60 bg-black py-10 mt-5">
                 <h2 class="text-center text-3xl text-white font-bold pt-5">Budget</Select></h2>
                 <div class="grid justify-items-center">
                     <img src=" photos/Ureg-Ureg Marker.png" alt="" srcset="">
-                    <div class="calculation"></div>
+                    <div class="calculation text-white grid grid-cols-3 gap-2 p-5">
+                        <p class="  col-span-2">Per player</p>
+                        <input type="text" class=" col-span-1 pl-3" value="1000">
+                        <button class="  m-auto text-center bg-blue-600 text-white w-full py-2 my-5 col-span-3"
+                            id="Calculate">Calculate</button>
+                        <p class="  col-span-2">Player Expenses</p>
+                        <p class="  col-span-1">$ <span id="calculated_player-expenses">000</span></p>
+                        <!-- ---------- other cost ------- -->
+                        <p class="  col-span-2">Manager</p>
+                        <input type="text" class=" col-span-1 pl-3" value="2000">
+                        <p class="  col-span-2">Coach</p>
+                        <input type="text" class=" col-span-1 pl-3" value="4000">
+                        <button class="  m-auto text-center bg-blue-600 text-white w-full py-2 my-5 col-span-3"
+                            id="Calculate">Calculate Total</button>
+                        <!-- total ------  -->
+                        <p class="  col-span-2 font-bold">Total</p>
+                        <p class="  col-span-1 text-orange-600 font-bold">$ <span
+                                id="calculated_player-expenses">6000</span></p>
+                    </div>
                 </div>
             </div>
         </div>
+        </div>
     </section>
+
+
+    <script src="js/common.js"></script>
+    <script src="js/select.js"></script>
 </body>
 
 </html>
