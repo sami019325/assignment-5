@@ -1,4 +1,4 @@
-console.log("calculate");
+
 // player cost
 document.getElementById("Calculate").addEventListener("click", function () {
     const playerCost = parseIntFunction("per-player-cost")
