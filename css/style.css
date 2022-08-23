@@ -14,12 +14,7 @@ body {
     height: 90vh;
 }
 
-/* .line-marker {
-    position: relative;
-    right: 0;
-    left: auto
-}
- */
+
 .page-header {
     font-family: 'Berkshire Swash', cursive;
     color: rgba(255, 94, 25, 1);
@@ -27,8 +22,6 @@ body {
 
 .soccer-bg {
     border-radius: 100% 0 0 0;
-    margin-left: 90px;
-    padding-right: 90px;
 }
 
 .bg-header-img {
